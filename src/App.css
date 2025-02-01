@@ -13,6 +13,17 @@
   width: 34px;
 }
 
+.toggle {
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 5px;
+  text-align: center;
+  align-self: center;
+  width: 70px;
+}
+
 .board-row:after {
   clear: both;
   content: '';
@@ -30,3 +41,4 @@
 .game-info {
   margin-left: 20px;
 }
+
